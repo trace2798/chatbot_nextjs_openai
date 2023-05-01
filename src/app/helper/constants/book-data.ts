@@ -1,4 +1,5 @@
 export const bookData = `
+<desc>My name is Sasha</desc>
 <url>
 <loc>https://books.toscrape.com/</loc>
 <desc>Your book store</desc>
