@@ -39,6 +39,12 @@ export const bookData = `
     <price>56.50</price>
     <availability>in stock</availability>
     </book>
+    <book>
+    <url>https://books.toscrape.com/catalogue/the-lab-bull/index.html</url>
+    <desc>A book about Restaurant Management System</desc>
+    <price>56.50</price>
+    <availability>in stock</availability>
+    </book>
 </content>
 </url>
 `
