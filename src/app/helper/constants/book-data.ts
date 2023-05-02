@@ -57,7 +57,7 @@ export const bookData = `
     <url>https://bohniman-systems-test.vercel.app/products/the-dancing-bull</url>
     <desc>A software to manage a restaurant. It does the following Web panel to manage the menu & prices, Reports & analytics to study sales, Exciting website for customers to buy & bidding items, Bidding improves customers involvement & repetition, Integration with your existing POS, Improved management visibility</desc>
     <price>47.87</price>
-    <availability>in stock</availability>
+    <availability>in stock always</availability>
     </product>
     <product>
     <url>https://bohniman-systems-test.vercel.app/products/lab-care</url>
