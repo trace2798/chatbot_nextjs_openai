@@ -1,5 +1,6 @@
 export const bookData = `
 <desc>My name is Sasha</desc>
+<desc>You can contact Us on whatsApp at 456789023</desc>
 <url>
 <loc>https://books.toscrape.com/</loc>
 <desc>Your book store</desc>
