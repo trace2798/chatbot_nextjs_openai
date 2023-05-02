@@ -1,19 +1,20 @@
 export const bookData = `
 <desc>My name is Sasha</desc>
-<desc>You can contact Us on whatsApp at 456789023</desc>
+<desc>You can contact Us on whatsApp at 456789023 or visit us at $a, kundalini Plaza, Panbazar.</desc>
 <url>
-<loc>https://books.toscrape.com/</loc>
-<desc>Your book store</desc>
+<loc>https://bohniman-systems-test.vercel.app/</loc>
+<desc>Your Company website</desc>
 </url>
 <url>
-<loc>https://books.toscrape.com/catalogue/category/books_1/index.html</loc>
-<desc>An overview about our book collection</desc>
+<loc>https://bohniman-systems-test.vercel.app/</loc>
+<desc>An overview about the company</desc>
 </url>
 <url>
-<loc>https://books.toscrape.com/catalogue/category/books/travel_2/index.html</loc>
+<loc>https://bohniman-systems-test.vercel.app/services</loc>
+<desc>An overview about the services we provide</desc>
 <content>
-    <book>
-    <url>https://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html</url>
+    <services>
+    <url>https://bohniman-systems-test.vercel.app/services</url>
     <desc>A book about travelling the himalayas</desc>
     <price>45.17</price>
     <availability>in stock</availability>
@@ -27,26 +28,27 @@ export const bookData = `
 </content>
 </url>
 <url>
-<loc>https://books.toscrape.com/catalogue/category/books/mystery_3/index.html</loc>
+<url>https://bohniman-systems-test.vercel.app/products</url>
+<desc>An overview about the products we provide</desc>
 <content>
-    <book>
-    <url>https://books.toscrape.com/catalogue/sharp-objects_997/index.html</url>
-    <desc>A book about by Gillian Flynn about Camille Preaker's troubled past</desc>
+    <product>
+    <url>https://bohniman-systems-test.vercel.app/products/the-dancing-bull</url>
+    <desc>A software to manage a restaurant.</desc>
     <price>47.87</price>
     <availability>in stock</availability>
-    </book>
-    <book>
-    <url>https://books.toscrape.com/catalogue/the-past-never-ends_942/index.html</url>
-    <desc>A book by Jackson Burnett about the attourney Chester Morgan. His friend died in an unexplained accidental death.</desc>
-    <price>56.50</price>
+    </product>
+    <product>
+    <url>https://bohniman-systems-test.vercel.app/products/lab-care</url>
+    <desc>A Hospital Management Software.</desc>
+    <price>On request</price>
     <availability>in stock</availability>
-    </book>
-    <book>
-    <url>https://books.toscrape.com/catalogue/the-lab-bull/index.html</url>
-    <desc>A book about Restaurant Management System</desc>
-    <price>56.50</price>
-    <availability>in stock</availability>
-    </book>
+    </product>
+    // <book>
+    // <url>https://books.toscrape.com/catalogue/the-lab-bull/index.html</url>
+    // <desc>A book about Restaurant Management System</desc>
+    // <price>56.50</price>
+    // <availability>in stock</availability>
+    // </product>
 </content>
 </url>
 `
