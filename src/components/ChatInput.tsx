@@ -265,7 +265,7 @@ import { MessagesContext } from "@/context/messages";
 import { cn } from "@/lib/utils";
 import { Message } from "@/lib/validators/message";
 import { useMutation } from "@tanstack/react-query";
-import { CornerDownLeft, Loader2 } from "lucide-react";
+import { CornerDownLeft, Loader2, Send } from "lucide-react";
 import { nanoid } from "nanoid";
 import { FC, HTMLAttributes, useContext, useRef, useState } from "react";
 import { toast } from "react-hot-toast";
@@ -374,7 +374,19 @@ const ChatInput: FC<ChatInputProps> = ({ className, ...props }) => {
             {isLoading ? (
               <Loader2 className="w-3 h-3 animate-spin" />
             ) : (
-              <CornerDownLeft className="w-3 h-3" />
+              <button
+                onClick={() => {
+                  const message = {
+                    id: nanoid(),
+                    isUserMessage: true,
+                    text: input,
+                  };
+
+                  sendMessage(message);
+                }}
+              >
+                <Send className="w-3 h-3" />
+              </button>
             )}
           </kbd>
         </div>
