@@ -12,6 +12,9 @@ const ChatHeader: FC = () => {
           <p className="font-medium">Bohniman support</p>
         </div>
       </div>
+      <div className="no-underline text-sm p-2 bg-black text-white rounded-xl">
+        AI Powered
+      </div>
     </div>
     // <div>Chat</div>
   );
