@@ -10,10 +10,10 @@ const ChatHeader: FC = () => {
         {/* <Image src="/images/support.png" alt="Support" width="50" height="50" /> */}
         <div className="flex gap-1.5 items-center">
           <p className="w-2 h-2 rounded-full bg-green-500" />
-          <p className="font-medium">Bohniman support</p>
+          <p className="font-semibold">Bohniman support</p>
         </div>
       </div>
-      <div className="no-underline text-xs p-2 max-md:p-[5px] ml-1 bg-black text-white rounded-xl">
+      <div className=" text-xs p-2 max-md:p-[5px] ml-1 bg-black text-white rounded-xl">
         AI Powered
       </div>
     </div>

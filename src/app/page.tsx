@@ -3,12 +3,28 @@ import { Inter } from "next/font/google";
 import Hero from "@/components/Hero";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import Navbar from "@/components/Navbar";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
+      <Script
+        strategy="lazyOnload"
+        src={`https://www.googletagmanager.com/gtag/js?id=G-RB75JQHNT1`}
+      />
+
+      <Script strategy="lazyOnload">
+        {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'XXXXXXXXXX', {
+        page_path: window.location.pathname,
+      });
+  `}
+      </Script>
       {/* <Navbar/> */}
       <main className="absolute inset-0 flex justify-center items-center  flex-col ">
         {/* <div className=" w-80 h-80 bg-white dark:bg-slate-900">
