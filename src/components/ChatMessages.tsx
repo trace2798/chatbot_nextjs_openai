@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { MessagesContext } from "@/context/messages";
 import { FC, HTMLAttributes, useContext } from "react";
@@ -44,7 +44,6 @@ const ChatMessages: FC<ChatMessagesProps> = ({ className, ...props }) => {
                   })}
                 >
                   <MarkdownLite text={message.text} />
-                  
                 </p>
               </div>
             </div>
