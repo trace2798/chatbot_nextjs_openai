@@ -29,7 +29,7 @@ export default function RootLayout({
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'RB75JQHNT1', {
+      gtag('config', 'G-RB75JQHNT1', {
         page_path: window.location.pathname,
       });
   `}
