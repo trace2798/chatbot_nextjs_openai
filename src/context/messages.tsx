@@ -5,10 +5,18 @@ import { Message } from '@/lib/validators/message'
 const defaultValue = [
   {
     id: nanoid(),
-    text: 'Hello, how can I help you?',
+    text: 'Hello, How can I help you? You can ask me any questions related to Bohniman Systems.',
     isUserMessage: false,
   },
 ]
+
+// const preDefinedQuestions = [
+//   { text: "What are your hours of operation?" },
+//   { text: "Do you offer any discounts or promotions?" },
+//   { text: "How can I contact customer support?" },
+//   // Add more questions as needed
+// ];
+
 export const MessagesContext = createContext<{
   messages: Message[]
   isMessageUpdating: boolean
